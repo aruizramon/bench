@@ -92,11 +92,11 @@ def clone_bench_repo():
 
 	# change user
 	run_os_command({
-		'ls': 'sudo chown -R {user}:{user} /usr/local/frappe'.format(user=getpass.getuser()),
+		'ls': 'sudo chown -R {user} /usr/local/frappe'.format(user=getpass.getuser()),
 	})
 
 	success = run_os_command(
-		{'git': 'git clone https://github.com/frappe/bench {bench_repo} --depth 1'.format(bench_repo=bench_repo)}
+		{'git': 'git clone https://github.com/aruizramon/bench {bench_repo} --depth 1 --branch new-install'.format(bench_repo=bench_repo)}
 	)
 
 	return success
