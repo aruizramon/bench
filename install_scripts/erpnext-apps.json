@@ -1,6 +1,22 @@
 [
   {
-    "url":"https://github.com/frappe/erpnext",
+    "url":"https://github.com/aruizramon/alec_erpnext",
     "name":"erpnext"
+  },
+  {
+    "url":"https://gitlab.com/aruizramon/engine_management",
+    "name":"engine_management"
+  },
+  {
+    "url":"https://gitlab.com/aruizramon/erpnext_controllers",
+    "name":"erpnext_controllers"
+  },
+  {
+    "url":"https://github.com/aruizramon/erpnext_kanban",
+    "name":"kanban"
+  },
+  {
+    "url":"https://github.com/aruizramon/alec_frappe_subscription",
+    "name":"frappe_subscription"
   }
 ]
